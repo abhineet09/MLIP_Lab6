@@ -19,7 +19,6 @@ pipeline {
                 source /home/abhineec/env/bin/activate
 
                 # TODO Complete the command to run pytest
-                pip install -r requirements.txt
                 pytest
 
                 echo 'pytest run completed'
